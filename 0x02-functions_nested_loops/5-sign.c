@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Entry point
- *
+ * @n: number being tested
  * Return: Always 0 (Success)
  */
 int print_sign(int n)

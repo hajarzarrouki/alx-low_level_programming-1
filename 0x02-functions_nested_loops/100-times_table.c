@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * print_times_table - Entry point
- *
- * Return: Always 0 (Success)
+ * @n: number of the times table
  */
 void print_times_table(int n)
 {

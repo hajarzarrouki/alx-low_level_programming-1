@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * time_table - Entry point
- *
- * Return: Always 0 (Success)
  */
 void time_table(void)
 {

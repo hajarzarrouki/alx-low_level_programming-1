@@ -2,7 +2,7 @@
 /**
  * add - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: c
  */
 int add(int a, int b)
 {
