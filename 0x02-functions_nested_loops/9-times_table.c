@@ -2,7 +2,7 @@
 /**
  * time_table - Entry point
  */
-void times_table(void)
+void time_table(void)
 {
 int i, j, k;
 for (i = 0; i < 10; i++)
