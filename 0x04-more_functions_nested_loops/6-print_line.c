@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_line - Main Entry
+ * print_line - prints a line of n length
+ * @n: number of times to print '_'
  */
 void print_line(int n)
 {
@@ -11,7 +12,6 @@ if (n > 0)
 {
 _putchar('_');
 }
-
 }
 _putchar('\n');
 }
