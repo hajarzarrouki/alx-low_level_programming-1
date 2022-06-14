@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_98 - Main Entry
+ * _strlen - Main Entry
  * @s: input
  * Return: length of string
  */
