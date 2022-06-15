@@ -10,10 +10,10 @@ while (*(s + l) != '\0')
 {
 l++;
 }
-l++;
+l--;
 for (; l >= 0; l--)
 {
-_putchar(*(s + l - 1));
+_putchar(*(s + l));
 }
 _putchar('\n');
 }
