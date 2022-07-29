@@ -1,13 +1,13 @@
 #include "main.h"
+
 /**
- * add - Entry point
- * @a: int to be added to b
- * @b: int to be added to a
- * Return: c
- */
-int add(int a, int b)
+ * add - adds two integers and returns the result.
+ * @num1: int to be added to num2
+ * @num2: int to be added to num1
+ * Return: @a + @b
+**/
+
+int add(int num1, int num2)
 {
-int c;
-c = a + b;
-return (c);
+		return (num1 + num2);
 }
