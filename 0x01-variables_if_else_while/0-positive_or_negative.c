@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - checks weather the generated number positive, zero or negative.
  *
  * Return: Always 0 (Success)
  */
