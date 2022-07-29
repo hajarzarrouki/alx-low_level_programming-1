@@ -1,21 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - prints sum of multipliers of 3 or 5 below 1024.
  *
  * Return: Always 0 (Success)
- */
+**/
+
 int main(void)
 {
-	int n;
+	int i;
 	int sum = 0;
 
-	for (n = 0; n < 1024; n++)
+	for (i = 0; i <= 1023; i++)
 	{
-		if (n % 3 == 0 || n % 5 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			sum += n;
+			sum += i;
 		}
 	}
+
 	printf("%d\n", sum);
+
 	return (0);
 }
