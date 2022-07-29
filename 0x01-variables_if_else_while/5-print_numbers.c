@@ -1,15 +1,20 @@
 #include <stdio.h>
+
 /**
  *main - Entry point
  *
  * Return: Always 0 (Success)
- */
+**/
+
 int main(void)
 {
-	int digit;
+	int i;
 
-	for (digit = 0; digit < 10; digit++)
-	printf("%i", digit);
+	for (i = 0; i <= 9; i++)
+	{
+		printf("%d", i);
+	}
+
 	putchar('\n');
 
 	return (0);
