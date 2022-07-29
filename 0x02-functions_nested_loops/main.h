@@ -1,11 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*
- * File: main.h
+/**
+ * File: main
  *
  * Desc: header file
- */
+**/
 
 int _putchar(char c);
 void print_alphabet(void);
