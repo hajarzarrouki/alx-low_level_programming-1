@@ -23,6 +23,14 @@
 - [0x14. C - Bit manipulation](./0x14-bit_manipulation)
 - [0x15. C - File io](./0x15-file_io)
 - [0x16. C - Simple Shell](https://github.com/MubarekSD/simple_shell)
+- [0x17. C - Doubly Linked Lists](./0x17-doubly_linked_lists)
+- [0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
+- [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/MubarekSD)
+- [0x1A. C - Hash tables](./0x1A-hash_tables)
+- [0x1B. C - Sorting algorithms & Big O](https://github.com/MubarekSD/sorting_algorithms)
+- [0x1C. C - Makefiles](./0x1C-makefiles)
+- [0x1D. C - Binary trees](https://github.com/MubarekSD/binary_trees)
+- [0x1E. C - Search Algorithms](./0x1E-search_algorithms)
 
 ## License
 
