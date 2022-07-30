@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the number from 1 to 100, but for mult of 3 & 5 print Fizz Buzz
+ * main - prints the number from 1 - 100, but for mult of 3 & 5 print Fizz Buzz
  *
  * Return: Always 0 (Success)
 **/
