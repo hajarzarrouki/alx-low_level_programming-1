@@ -18,11 +18,11 @@ int main(void)
 	{
 		if (i != 50)
 		{
-			printf("%d, ", j);
+			printf("%ld, ", j);
 		}
 		else
 		{
-			printf("%d\n", j);
+			printf("%ld\n", j);
 		}
 
 		l = j + k;
