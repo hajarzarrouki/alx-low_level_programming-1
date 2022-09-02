@@ -4,3 +4,6 @@
 [submodule "0x16-simple_shell"]
 	path = 0x16-simple_shell
 	url = git@github.com:MubarekSD/simple_shell.git
+[submodule "0x19-stacks_queues_lifo_fifo"]
+	path = 0x19-stacks_queues_lifo_fifo
+	url = git@github.com:MubarekSD/monty.git
