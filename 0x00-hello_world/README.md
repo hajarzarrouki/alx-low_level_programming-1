@@ -196,8 +196,8 @@ Which of the following are both valid comment syntaxes in ANSI C, and Betty-comp
         */
 
 - [X] /*
-    * Comment
-       */
+       \* Comment
+       \*/
 
 - [ ] # Comment
 
