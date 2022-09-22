@@ -13,7 +13,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (!size)
 		return (NULL);
 
-	ht = malloc(sizeof(hash_table_t));
+	ht = calloc(1, sizeof(hash_table_t));
 	
 	if (!ht)
 		return (NULL);
@@ -22,7 +22,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 	ht->array = calloc((size_t)ht->size, sizeof(hash_node_t *));
 
 	if (!ht->array)
+	{
+		free(ht);
 		return (NULL);
+	}
 
 	return (ht);
 }
