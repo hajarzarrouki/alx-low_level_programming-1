@@ -1,12 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints _putchar, followed by a new line.
- * return: 0
+ * Return: 0
 **/
 
 int main(void)
 {
-	puts("_putchar");
+	unsigned int i;
+	char c[] = "_putchar";
+
+	for (i = 0; i < sizeof(c); i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
+
 	return (0);
 }
